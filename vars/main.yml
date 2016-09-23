@@ -1,0 +1,87 @@
+---
+configure_sudoers: yes
+homebrew_install_path: /usr/local/homebrew
+homebrew_installed_packages:
+  - ansible
+  - git
+  - openssl
+  - hub
+  - python
+  - sqlite
+  - watchman
+  - ssh-copy-id
+  - dockutil
+  - nmap
+  - tree
+  - tmux
+  - irrsi
+
+homebrew_taps:
+  - caskroom/cask
+  - caskroom/versions
+  - homebrew/dupes
+  - homebrew/binary
+  - homebrew/core
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - google-chrome-beta
+  - firefox
+#  - iterm2-beta
+  - torbrowser
+  - obs
+  - vagrant
+  - filezilla
+  - virtualbox
+  - sublime-text
+  - amazon-music
+
+dockitems_to_remove:
+  - Launchpad
+  - Mail
+#  - Safari
+  - Contacts
+  - Reminders
+  - Maps
+  - Photos
+#  - Messages
+  - FaceTime
+  - iTunes
+  - Notes
+#  - iBooks
+  - App Store
+  - System Preferences
+  - Calendar
+
+dockitems_to_persist:
+  - name: Google Chrome
+    path: "/Applications/Google Chrome.app"
+    pos: 1
+  - name: Safari
+    path: /Applications/Safari.app
+    pos: 2
+  - name: FoxFire
+    path: "/Applications/Firefox.app"
+    pos: 3
+  - name: VirtualBox
+    path: /Applications/VirtualBox.app
+    pos: 4
+  - name: Sublime
+    path: /Applications/Sublime\ Text.app
+    pos: 5
+  - name: Terminal
+    path: /Applications/Utilities/Terminal.app
+    pos: 6
+  - name: Filezilla
+    path: /Applications/FileZilla.app
+    pos: 7
+  - name: OBS
+    path: /Applications/OBS.app
+    pos: 8
+  - name: Texts
+    path: /Applications/Messages.app
+    pos: 9
+  - name: Jamz
+    path: /Applications/Amazon\ Music.app
+    pos: 10
+

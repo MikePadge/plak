@@ -1,0 +1,5 @@
+*.vagrant
+.DS_Store
+*.retry
+roles*
+vars/og.yml
