@@ -14,7 +14,7 @@ homebrew_installed_packages:
   - nmap
   - tree
   - tmux
-  - irrsi
+  - irssi
 
 homebrew_taps:
   - caskroom/cask
