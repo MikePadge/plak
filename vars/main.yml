@@ -3,18 +3,18 @@ downloads: ~/.ansible-downloads/
 
 configure_sudoers: yes
 
-dotfiles_repo: https://github.com/mikepadge/dotfiles
-dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_local_destination: ~/Documents/
-dotfiles_files:
-  - .bash_profile
-  - .gitconfig
-  - .gitignore
-  - .inputrc
-  - .osx
-  - .vimrc
-  - .vim
-  - .aliases
+#dotfiles_repo: https://github.com/mikepadge/dotfiles
+#dotfiles_repo_accept_hostkey: yes
+#dotfiles_repo_local_destination: ~/Documents/
+#dotfiles_files:
+#  - .bash_profile
+#  - .gitconfig
+#  - .gitignore
+#  - .inputrc
+#  - .osx
+#  - .vimrc
+#  - .vim
+#  - .aliases
 
 homebrew_install_path: /usr/local/homebrew
 homebrew_installed_packages:
