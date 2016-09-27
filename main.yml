@@ -6,8 +6,8 @@
     - vars/main.yml
 
   roles:
-    - mikepadge.homebrew
-    - mikepadge.dotfiles
+    - MikePadge.homebrew
+    - MikePadge.dotfiles
 
   tasks:
     - include: tasks/ansible-setup.yml
