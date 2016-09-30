@@ -16,15 +16,15 @@ downloads: ~/.ansible-downloads/
 
 homebrew_install_path: /usr/local/homebrew
 homebrew_installed_packages:
-#  - git
-#  - openssl
-#  - hub
-#  - python
-#  - sqlite
-#  - watchman
-#  - ssh-copy-id
+  - git
+  - openssl
+  - hub
+  - python
+  - sqlite
+  - watchman
+  - ssh-copy-id
   - dockutil
-#  - nmap
+  - nmap
   - tree
   - tmux
   - irssi
@@ -39,15 +39,15 @@ homebrew_taps:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - google-chrome-beta
-#  - firefox
-##  - iterm2-beta
-#  - torbrowser
-#  - obs
-#  - vagrant
-#  - filezilla
+  - firefox
+#  - iterm2-beta
+  - torbrowser
+  - obs
+  - vagrant
+  - filezilla
   - virtualbox
-#  - sublime-text
-#  - amazon-music
+  - sublime-text
+  - amazon-music
 
 dockitems_to_remove:
   - Launchpad
